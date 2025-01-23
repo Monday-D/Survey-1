@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1>The Jarvis Protocol Survey</h1>
+
+    <!-- create a form -->
+     <form id="form">
+
+        <!-- details -->
+         <div class="form-control">
+            <label for="name" id="label-name" >
+                Name
+            </label>
+            <!-- input type text -->
+             <input type="text" id="name" placeholder="enter your name">
+         </div>
+
+         <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+            <!-- input email -->
+             <input type="email" id="email" placeholder="enter your email">
+         </div>
+
+         <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <!-- input age -->
+             <input type="text" id="age" placeholder="enter your age">
+         </div>
+
+         <div class="form-control">
+            <label for="roll" id="label-role">
+                Which option describes you the best?
+            </label>
+
+            <!-- dropdown optiion -->
+             <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+             </select>
+         </div>
+
+         <div class="form-control">
+            <label>
+                Would you recommend this Protocol to a friend?
+            </label>
+
+            <!-- input radio option -->
+             <label for="r1">
+                <input type="radio" id="r1" name="recommend">Yes
+             </label>
+             <label for="r2">
+                <input type="radio" id="r2" name="recommend">NO
+             </label>
+             <label for="r3">
+                <input type="radio" id="r3" name="recommend">MAYbe
+             </label>
+         </div>
+
+         <div class="form-control">
+            <label>Language and frameworks known 
+                <small>(check all that apply)</small>
+            </label>
+            <!-- input type checkboxes -->
+             <label for="in1">
+                <input type="checkbox" name="input">C
+                
+             </label>
+             <label for="in2">
+                <input type="checkbox" name="input">C++
+             </label>
+             <label for="in3">
+                <input type="checkbox" name="input">Java
+             </label>
+             <label for="in4">
+                <input type="checkbox" name="input">Python
+             </label>
+             <label for="in5">
+                <input type="checkbox" name="input">Javascript
+             </label>
+         </div>
+
+         <div class="form-control">
+            <label for="comment">
+                Any comment or suggestion ?
+            </label>
+
+            <!-- input text input -->
+             <textarea name="comment" id="comment" placeholder="enter your comments or any suggestion..."></textarea>
+         </div>
+
+         <!-- submit button -->
+          <button type="submit" value="submit"><b>Submit</b> </button>
+
+     </form>
+
+</body>
+</html>
